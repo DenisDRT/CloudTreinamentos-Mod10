@@ -1,3 +1,3 @@
-Apagar este frase e escrever outra aqui
+Novo commit para fazer um push.
 
 Esse arquivo é de instruções 
