@@ -13,4 +13,4 @@ post_build:
      - echo Build finalizado em 'date'
 artifacts:
    files:
-     - build/test
+     - build/
