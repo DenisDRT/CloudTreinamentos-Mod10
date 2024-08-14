@@ -13,6 +13,6 @@ build:
 
 artifacts:
    files:
-     - build/**/*'
+     - build/**/*
      - scripts/**/*
      - appspec.yml
