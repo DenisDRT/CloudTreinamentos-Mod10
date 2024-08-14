@@ -5,15 +5,15 @@ files:
     destination: /home/ec2-user/app
 hooks:
   BeforeInstall:
-    - location: Scripts/before_install.sh
+    - location: scripts/before_install.sh
       timeout: 100
       runas: root 
   AfterInstall:
-    - location: Scripts/after_install.sh
+    - location: scripts/after_install.sh
       timeout: 100
       runas: root 
   ValidateService:
-    - location: Scripts/app_start.sh
+    - location: scripts/app_start.sh
       timeout: 100
       runas: root
  
