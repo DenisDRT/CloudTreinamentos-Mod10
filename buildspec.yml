@@ -14,3 +14,5 @@ post_build:
 artifacts:
    files:
      - '**/*'
+     - appspec.yml
+     - scripts/**/*
