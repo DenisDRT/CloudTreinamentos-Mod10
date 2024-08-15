@@ -1,18 +1,17 @@
 version: 0.2
 phases:
-
   pre_build:
     commands:
-      - echo Install
+      - echo "Install"
       - npm install
 
-build:    
+  build:
     commands:
-     - echo Install
-     - npm run build
+      - echo "Build"
+      - npm run build
 
 artifacts:
-   files:
-     - build/**/*'
-     - scripts/**/*
-     - appspec.yml
+  files:
+    - build/**/*       # Corrigido para remover o caractere extra
+    - scripts/**/*
+    - appspec.yml
