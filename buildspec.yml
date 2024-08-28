@@ -12,6 +12,6 @@ phases:
 
 artifacts:
   files:
-    - /**/*       # Corrigido para remover o caractere extr
+    - build/**/*       # Corrigido para remover o caractere extr
     - scripts/**/*
     - appspec.yml
